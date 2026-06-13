@@ -11,7 +11,7 @@ El objetivo es transformar un dataset de Kaggle en conclusiones claras y acciona
 - **Herramientas:** Python (Pandas, Matplotlib, Seaborn) para el análisis exploratorio de datos (EDA) y **Power BI Desktop** para el dashboard final.
 - **Audiencia:** Perfiles de negocio sin conocimientos técnicos de programación o análisis de datos.
 
-El foco del proyecto está en el storytelling con datos y en la explicación ética de las limitaciones del dataset [file:1]
+El foco del proyecto está en el storytelling con datos y en la explicación ética de las limitaciones del dataset
 
 ---
 
@@ -36,7 +36,7 @@ Todo el EDA está documentado en `notebooks/eda.ipynb`. Actualmente incluye:
 - Ranking de plataformas por ventas globales.
 - Ranking de géneros por ventas globales.
 - Matriz de correlación entre ventas globales, ventas regionales y puntuaciones de usuarios y crítica.
-- Conteo y porcentaje de valores nulos por columna, con comentarios sobre la calidad de los datos. [notebooks/eda.ipynb]
+- Conteo y porcentaje de valores nulos por columna, con comentarios sobre la calidad de los datos.
 
 Este análisis sirve como base para definir las métricas y gráficos que se mostrarán en el dashboard de Power BI.
 
@@ -48,9 +48,9 @@ En el notebook se documentan varios problemas de gobernanza y representatividad 
 
 - Más del 50 % de los juegos no tiene información de puntuación de usuarios ni de crítica, por lo que cualquier análisis que relacione ventas y valoraciones solo refleja una parte del catálogo, probablemente los títulos más visibles.
 - Una proporción importante de registros carece de `Rating` y `Developer`, lo que limita los análisis por clasificación por edades o  estudio desarrollador.
-- La serie temporal indica un pico de ventas físicas entre 2005 y 2009 y una caída  a partir de 2010, lo que sugiere que el dataset está centrado en ventas físicas históricas y no representa bien el crecimiento reciente de la distribución digital. [notebooks/eda.ipynb][file:1]
+- La serie temporal indica un pico de ventas físicas entre 2005 y 2009 y una caída  a partir de 2010, lo que sugiere que el dataset está centrado en ventas físicas históricas y no representa bien el crecimiento reciente de la distribución digital.
 
-Estas limitaciones se explicarán de forma explícita en el dashboard, en una sección dedicada a sesgos y gobernanza de datos. [file:1]
+Estas limitaciones se explicarán de forma explícita en el dashboard, en una sección dedicada a sesgos y gobernanza de datos.
 
 ---
 
@@ -60,7 +60,7 @@ El dashboard interactivo se construirá en **Power BI Desktop** y se añadirá a
 
 - Cuatro o más gráficos interactivos con filtrado cruzado.
 - Filtros básicos de segmentación (por ejemplo, año, plataforma, género y región).
-- Una sección específica sobre sesgos del dataset, advertencias de uso y riesgos de tomar decisiones sin tener en cuenta estas limitaciones. [file:1]
+- Una sección específica sobre sesgos del dataset, advertencias de uso y riesgos de tomar decisiones sin tener en cuenta estas limitaciones.
 
 Cuando el informe esté publicado en la nube, se añadirá aquí el enlace público para acceso vía navegador.
 

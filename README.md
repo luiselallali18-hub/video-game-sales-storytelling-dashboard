@@ -56,15 +56,14 @@ Estas limitaciones se explicarán de forma explícita en el dashboard, en una se
 
 ## 📈 Dashboard (Power BI)
 
-El dashboard interactivo se construirá en **Power BI Desktop** y se añadirá a este repositorio como archivo `.pbix`. Incluirá, como mínimo:
+El dashboard interactivo está construido en **Power BI Desktop** y se encuentra disponible en este repositorio en el archivo `.pbix` dentro de la carpeta `reports/`. Incluye:
 
-- Cuatro o más gráficos interactivos con filtrado cruzado.
-- Filtros básicos de segmentación (por ejemplo, año, plataforma, género y región).
+- Cuatro gráficos interactivos con filtrado cruzado automático.
+- Filtros de segmentación estratégica mediante menús desplegables (**Género** y **Plataforma**) que permiten explorar los datos manteniendo la limpieza visual del lienzo.
 - Una sección específica sobre sesgos del dataset, advertencias de uso y riesgos de tomar decisiones sin tener en cuenta estas limitaciones.
 
 **Por qué Power BI**
-
-Lo he elegido porque permite construir cuadros de mando interactivos sin necesidad de escribir código, algo clave para un público de negocio sin perfil técnico. Además, facilita el filtrado cruzado y la publicación en la nube, de forma que se pueden explorar las métricas desde un enlace web sin instalar herramientas adicionales
+Lo he elegido porque permite construir cuadros de mando interactivos sin necesidad de escribir código, algo clave para un público de negocio sin perfil técnico. Además, facilita el filtrado cruzado para explorar las métricas de forma ágil y dinámica.
 
 Cuando el informe esté publicado en la nube, se añadirá aquí el enlace público para acceso vía navegador.
 

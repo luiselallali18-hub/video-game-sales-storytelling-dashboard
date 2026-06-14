@@ -62,7 +62,8 @@ El dashboard interactivo se construirá en **Power BI Desktop** y se añadirá a
 - Filtros básicos de segmentación (por ejemplo, año, plataforma, género y región).
 - Una sección específica sobre sesgos del dataset, advertencias de uso y riesgos de tomar decisiones sin tener en cuenta estas limitaciones.
 
-Por qué Power BI
+**Por qué Power BI**
+
 Lo he elegido porque permite construir cuadros de mando interactivos sin necesidad de escribir código, algo clave para un público de negocio sin perfil técnico. Además, facilita el filtrado cruzado y la publicación en la nube, de forma que se pueden explorar las métricas desde un enlace web sin instalar herramientas adicionales
 
 Cuando el informe esté publicado en la nube, se añadirá aquí el enlace público para acceso vía navegador.
@@ -73,5 +74,5 @@ Cuando el informe esté publicado en la nube, se añadirá aquí el enlace públ
 
 - `notebooks/` – Notebook de análisis exploratorio (`eda.ipynb`).
 - `data/` – Datos en bruto en local (ignorados por Git).
-- `reports/` *(pendiente de crear)* – Archivo de Power BI (`.pbix`) con el dashboard final.
+- `reports/` – Archivo de Power BI (`.pbix`) con el dashboard final.
 - `README.md` – Descripción del proyecto, del dataset, del EDA y del dashboard.

@@ -17,7 +17,7 @@ El foco del proyecto está en el storytelling con datos y en la explicación ét
 
 ## 🗂️ Dataset
 
-- **Origen:** Dataset público de Kaggle sobre ventas históricas de videojuegos (enlace pendiente de añadir).
+- **Origen:** Dataset público de Kaggle sobre ventas históricas de videojuegos (https://www.kaggle.com/datasets/sidtwr/videogames-sales-dataset).
 - **Estructura:** Aproximadamente 16.000 registros y 16 columnas, combinando:
   - Variables categóricas: `Name`, `Platform`, `Genre`, `Publisher`, `Developer`, `Rating`.
   - Variables numéricas: ventas por región (`NA_Sales`, `EU_Sales`, `JP_Sales`, `Other_Sales`), `Global_Sales`, `Critic_Score`, `User_Score`, `Critic_Count`, `User_Count`.
@@ -61,6 +61,9 @@ El dashboard interactivo se construirá en **Power BI Desktop** y se añadirá a
 - Cuatro o más gráficos interactivos con filtrado cruzado.
 - Filtros básicos de segmentación (por ejemplo, año, plataforma, género y región).
 - Una sección específica sobre sesgos del dataset, advertencias de uso y riesgos de tomar decisiones sin tener en cuenta estas limitaciones.
+
+Por qué Power BI
+Lo he elegido porque permite construir cuadros de mando interactivos sin necesidad de escribir código, algo clave para un público de negocio sin perfil técnico. Además, facilita el filtrado cruzado y la publicación en la nube, de forma que se pueden explorar las métricas desde un enlace web sin instalar herramientas adicionales
 
 Cuando el informe esté publicado en la nube, se añadirá aquí el enlace público para acceso vía navegador.
 

@@ -65,7 +65,8 @@ El dashboard interactivo está construido en **Power BI Desktop** y se encuentra
 **Por qué Power BI**
 Lo he elegido porque permite construir cuadros de mando interactivos sin necesidad de escribir código, algo clave para un público de negocio sin perfil técnico. Además, facilita el filtrado cruzado para explorar las métricas de forma ágil y dinámica.
 
-Cuando el informe esté publicado en la nube, se añadirá aquí el enlace público para acceso vía navegador.
+El informe está diseñado para su ejecución e interacción en vivo a través de Power BI Desktop.
+![Vista previa del Dashboard](reports/dashboard_preview.PNG)
 
 ---
 
